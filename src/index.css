@@ -1,13 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ff1493;
+}
+
+h1 {
+  font-family: "kaushan script", cursive;
+  color: #fff;
+  margin: 0;
+  font-size: 32px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  width: 85px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  /* border: 2px solid #ff1493;  */
+  font-family: "kaushan script", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #ff1493;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Hover styles */
+  &:hover {
+    background-color: #ff1493;
+    color: #fff;
+  }
+
+  /* Pressed styles */
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+h3 {
+  font-family: "kaushan script", cursive;
+  color: #ff1493;
+  margin: 8px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul button {
+  margin-left: 11px;
+  width: 60px;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 83%;
+}
+
+ul div {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 12px;
+  cursor: pointer;
+  accent-color: #ff1493;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.add-goal {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-goal button {
+  margin: 20px auto 0;
+  background-color: #ff1493;
+  color: #f9f9f9;
+}
+
+form {
+  width: 100%;
+  display: grid;
+  gap: 12px;
+}
+
+form label {
+  font-weight: bold;
+  font-family: "kaushan script", cursive;
+  color: #ff1493;
+}
+
+form input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.done li {
+  background-color: #ddd;
+}
+
+.done h3 {
+  text-decoration: line-through;
+  color: #333;
+}
+
+.done .deadline {
+  color: #333;
+}
+
+.deadline {
+  font-weight: bold;
+  color: #ff1493;
 }

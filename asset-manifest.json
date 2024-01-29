@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/goal-tracker/static/css/main.5b8a1337.css",
-    "main.js": "/goal-tracker/static/js/main.d8323f87.js",
-    "index.html": "/goal-tracker/index.html",
-    "main.5b8a1337.css.map": "/goal-tracker/static/css/main.5b8a1337.css.map",
-    "main.d8323f87.js.map": "/goal-tracker/static/js/main.d8323f87.js.map"
+    "main.css": "/GoalBoost/static/css/main.5b8a1337.css",
+    "main.js": "/GoalBoost/static/js/main.d8323f87.js",
+    "index.html": "/GoalBoost/index.html",
+    "main.5b8a1337.css.map": "/GoalBoost/static/css/main.5b8a1337.css.map",
+    "main.d8323f87.js.map": "/GoalBoost/static/js/main.d8323f87.js.map"
   },
   "entrypoints": [
     "static/css/main.5b8a1337.css",

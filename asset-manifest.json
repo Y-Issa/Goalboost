@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goal-tracker/static/css/main.5b8a1337.css",
+    "main.js": "/goal-tracker/static/js/main.d8323f87.js",
+    "index.html": "/goal-tracker/index.html",
+    "main.5b8a1337.css.map": "/goal-tracker/static/css/main.5b8a1337.css.map",
+    "main.d8323f87.js.map": "/goal-tracker/static/js/main.d8323f87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b8a1337.css",
+    "static/js/main.d8323f87.js"
+  ]
+}

@@ -17,6 +17,7 @@ export default function GoalList({ goals, onDeleteGoal, onToggle }) {
               details={goal.details}
               deadline={goal.deadline}
               done={goal.done}
+              key={goal.id}
             />
             <Button onClick={() => onDeleteGoal(goal)}>Delete</Button>
           </div>

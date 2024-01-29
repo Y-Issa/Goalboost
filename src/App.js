@@ -111,18 +111,22 @@ function GoalList({ goals, onDeleteGoal, onToggle }) {
 }
 
 function Goal({ goal, details, deadline, done }) {
+  const deadlineDay = new Date(deadline);
+  const today = new Date();
   return (
     <li>
       <h3>{goal}</h3>
       <p>{done ? "This task is completed!" : details}</p>
       <p className="deadline">
         Deadline:{" "}
-        {new Date(deadline).toLocaleDateString(undefined, {
-          year: "numeric",
-          month: "short",
-          weekday: "short",
-          day: "numeric",
-        })}
+        {today.getTime() < deadlineDay.getTime()
+          ? deadlineDay.toLocaleDateString(undefined, {
+              year: "numeric",
+              month: "short",
+              weekday: "short",
+              day: "numeric",
+            })
+          : "DEADLINE PASSED!"}
       </p>
     </li>
   );
